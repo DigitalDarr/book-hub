@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/book-hub/static/css/main.4d5e131a.css",
+    "main.js": "/book-hub/static/js/main.b0537545.js",
+    "static/media/cover_not_found.jpg": "/book-hub/static/media/cover_not_found.69846940c7af3e651508.jpg",
+    "static/media/about-img.jpg": "/book-hub/static/media/about-img.b7521da541400a1eefdb.jpg",
+    "static/media/library-img.jpg": "/book-hub/static/media/library-img.4afac10d88317b595460.jpg",
+    "static/media/logo.png": "/book-hub/static/media/logo.ec44fa31224ca956d388.png",
+    "index.html": "/book-hub/index.html",
+    "static/media/loader.svg": "/book-hub/static/media/loader.a3343f12420f3160e32c5317638f2198.svg",
+    "main.4d5e131a.css.map": "/book-hub/static/css/main.4d5e131a.css.map",
+    "main.b0537545.js.map": "/book-hub/static/js/main.b0537545.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d5e131a.css",
+    "static/js/main.b0537545.js"
+  ]
+}
