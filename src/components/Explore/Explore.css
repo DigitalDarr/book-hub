@@ -1,0 +1,58 @@
+/* Genre Selector */
+.genre-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow-y: auto; /* Allow vertical scrolling if the list is long */
+
+
+  background-color: white; /* Background color for visibility */
+  padding: 20px; /* Add some padding for better appearance */
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  z-index: 0; /* Ensure it's on top of other content */
+
+  background-color: white;
+  width: 100%;
+  z-index: 9999; 
+
+
+}
+
+
+/* Genre Button */
+.genre-button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #888;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.genre-button.active {
+  background-color: #6435a5ab;
+  color: white;
+  border-color: #6435a5ab;
+}
+
+.genre-button:hover {
+  background-color: #eee;
+  color: #333;
+}
+
+.navbar.scrolled {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  z-index: 9999; /* Ensures the navbar stays above other content */
+}
+

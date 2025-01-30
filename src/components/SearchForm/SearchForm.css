@@ -1,0 +1,75 @@
+.search-form{
+    width: 100%;
+    max-width: 680px;
+}
+.search-form-elem{
+    padding: 1.4rem 2.8rem;
+    border-radius: 3.8rem;
+}
+.search-form-elem .form-control{
+    font-size: 2rem;
+    padding: 0.6rem;
+}
+.search-form-elem .form-control::placeholder{
+    opacity: 0.9;
+}
+
+.search-type-selector {
+    display: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .search-type {
+    color: #888;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .search-type:hover {
+    background-color: #eee;
+    color: #333;
+  }
+  .search-type.active {
+    background-color: #6435a5ab;
+    color: #fff;
+  }
+  
+
+  .sort-by-selector {
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .sort-by-selector label {
+    font-weight: bold;
+  }
+  .sort-by-selector select {
+    color: #888;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .sort-by-selector select:hover {
+    background-color: #eee;
+    color: #333;
+  }
+  .sort-by-selector select:focus {
+    outline: none;
+    border-color: #6435a5ab; 
+  }
+  .sort-by-selector select option {
+    text-transform: uppercase;
+    padding: 0.5rem;
+  }
+  
+
+  
+  

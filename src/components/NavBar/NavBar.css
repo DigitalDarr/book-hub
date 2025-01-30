@@ -1,0 +1,129 @@
+  .navbar {
+    padding: 1.8rem 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+
+
+  .navbar.scrolled {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    z-index: 9999; /* Ensures the navbar stays above other content */
+  }
+
+  
+  .navbar-brand {
+    width: 90px;
+  }
+  
+  .navbar-brand span {
+    margin-left: 2rem;
+  }
+  
+  .brand-and-toggler {
+    width: 100%;
+  }
+  
+  .navbar-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .navbar-toggler-btn {
+    transition: var(--transition);
+    z-index: 11;
+  }
+  
+  .navbar-collapse {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    background-color: var(--black-color);
+    height: 100%;
+    width: 80px;
+    padding: 9rem;
+    transform: translateX(100%);
+    justify-content: flex-end;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+  }
+  
+  .show-navbar-collapse {
+    transform: translateX(0);
+  }
+  
+  .nav-item {
+    margin-bottom: 1.4rem;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--black-color); /* Black when not collapsed */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .show-navbar-collapse .nav-link {
+    color: var(--white-color); /* White when collapsed */
+    display: flex;
+    justify-items: flex-end;
+  }
+  
+  .nav-link:hover {
+    color: var(--purple-color);
+  }
+  
+  .navbar-nav {
+    color: black; /* Highlight active link */
+  }
+  
+  @media screen and (min-width: 992px) {
+    .navbar-collapse {
+      position: relative;
+      height: auto;
+      padding: 0;
+      width: 100%;
+      background-color: transparent;
+      transform: translateX(0);
+      justify-content: flex-end;
+      display: flex;
+    }
+  
+    .navbar-toggler-btn {
+      display: none;
+    }
+  
+    .nav-item {
+      margin-bottom: 0;
+      margin-left: 2.8rem;
+      flex-direction: row;
+    }
+  
+    .nav-link {
+      color: var(--black-color); /* Ensure black by default on larger screens */
+      font-size: 1.7rem;
+      font-weight: 500 !important;
+      opacity: 0.8;
+    }
+  
+    .nav-link:hover {
+      opacity: 1;
+      color: var(--purple-color);
+    }
+  
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
+  
+
+
+  
+
+
+ 
